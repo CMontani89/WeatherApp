@@ -1,14 +1,14 @@
 /* eslint-disable no-duplicate-case */
 import React from "react";
 import Weather from "./app_content/weatherComponent";
-import "./App.css";
+import "./css/App.css";
 import Form from "./app_content/form";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "weather-icons/css/weather-icons.css";
 
 //api call api.openweathermap.org/data/2.5/weather?q=London,uk
 
-const API_KEY = "21314135sdfs2134";
+const API_KEY = "410463b3935acea56c8171825dbb4440";
 
 class App extends React.Component {
   constructor() {
